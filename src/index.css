@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --surface: 248 250 252;
+    --text-primary: 30 41 59;
+    --text-secondary: 100 116 139;
+  }
+
+  .dark {
+    --background: 15 23 42;
+    --surface: 30 41 59;
+    --text-primary: 241 245 249;
+    --text-secondary: 148 163 184;
+  }
+
+  body {
+    @apply bg-white text-slate-900 transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-slate-900 text-slate-100;
+  }
+}
