@@ -1,26 +1,29 @@
+import { useTranslation } from "react-i18next";
 import type { Education as EducationType } from "../types";
 
-const educationData: EducationType[] = [
-  {
-    id: '1',
-    degree: 'Ingeniería en Sistemas de Información',
-    institution: 'Universidad Nacional',
-    graduationYear: 'Graduado en 2021',
-    type: 'degree'
-  },
-  {
-    id: '2',
-    degree: 'Certificación en Desarrollo Web Full Stack',
-    institution: 'Plataforma Online',
-    graduationYear: '2020',
-    type: 'certification'
-  }
-];
-
 export const Education = () => {
+  const { t } = useTranslation();
+
+  const educationData: EducationType[] = [
+    {
+      id: '1',
+      degree: t('education.items.0.degree'),
+      institution: t('education.items.0.institution'),
+      graduationYear: t('education.items.0.graduationYear'),
+      type: 'degree'
+    },
+    {
+      id: '2',
+      degree: t('education.items.1.degree'),
+      institution: t('education.items.1.institution'),
+      graduationYear: t('education.items.1.graduationYear'),
+      type: 'certification'
+    }
+  ];
+
   return (
     <section id="education" className="education">
-      <h2>Education</h2>
+      <h2>{t("education.title")}</h2>
       {educationData.map((edu) => (
         <div key={edu.id} className="degree">
           <h3>{edu.degree} - {edu.institution}</h3>

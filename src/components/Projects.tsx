@@ -1,26 +1,29 @@
+import { useTranslation } from "react-i18next";
 import type { Project } from "../types";
 
-const projectsData: Project[] = [
-  {
-    id: '1',
-    name: 'Proyecto 1',
-    description: 'Descripción del proyecto. Tecnologías usadas.',
-    technologies: ['React', 'Node.js', 'MongoDB'],
-    githubUrl: '#'
-  },
-  {
-    id: '2',
-    name: 'Proyecto 2',
-    description: 'Descripción del proyecto. Tecnologías usadas.',
-    technologies: ['Vue.js', 'Python', 'PostgreSQL'],
-    githubUrl: '#'
-  }
-];
-
 export const Projects = () => {
+  const { t } = useTranslation();
+
+  const projectsData: Project[] = [
+    {
+      id: '1',
+      name: t('projects.items.0.name'),
+      description: t('projects.items.0.description'),
+      technologies: ['React', 'Node.js', 'MongoDB'],
+      githubUrl: '#'
+    },
+    {
+      id: '2',
+      name: t('projects.items.1.name'),
+      description: t('projects.items.1.description'),
+      technologies: ['Vue.js', 'Python', 'PostgreSQL'],
+      githubUrl: '#'
+    }
+  ];
+
   return (
     <section id="projects" className="projects">
-      <h2>Projects</h2>
+      <h2>{t("projects.title")}</h2>
       <div className="project-list">
         {projectsData.map((project) => (
           <div key={project.id} className="project">
@@ -34,7 +37,7 @@ export const Projects = () => {
               ))}
             </div>
             <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-              Ver en GitHub
+              {t("projects.viewOnGitHub")}
             </a>
           </div>
         ))}

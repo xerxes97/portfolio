@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import type { Skill } from "../types";
 
 const skillsData: Skill[] = [
@@ -19,6 +20,7 @@ const skillsData: Skill[] = [
 ];
 
 export const Skills = () => {
+  const { t } = useTranslation();
   const skillsByCategory = skillsData.reduce((acc, skill) => {
     if (!acc[skill.category]) {
       acc[skill.category] = [];
@@ -29,10 +31,10 @@ export const Skills = () => {
 
   return (
     <section id="skills" className="skills">
-      <h2>Skills</h2>
+      <h2>{t("skills.title")}</h2>
       <div className="skills-grid">
         <div>
-          <h3>Front-End</h3>
+          <h3>{t("skills.frontend")}</h3>
           <ul>
             {skillsByCategory.frontend?.map((skill, index) => (
               <li key={index}>{skill.name}</li>
@@ -40,7 +42,7 @@ export const Skills = () => {
           </ul>
         </div>
         <div>
-          <h3>Back-End</h3>
+          <h3>{t("skills.backend")}</h3>
           <ul>
             {skillsByCategory.backend?.map((skill, index) => (
               <li key={index}>{skill.name}</li>
@@ -48,7 +50,7 @@ export const Skills = () => {
           </ul>
         </div>
         <div>
-          <h3>Databases</h3>
+          <h3>{t("skills.databases")}</h3>
           <ul>
             {skillsByCategory.database?.map((skill, index) => (
               <li key={index}>{skill.name}</li>
@@ -56,7 +58,7 @@ export const Skills = () => {
           </ul>
         </div>
         <div>
-          <h3>Tools</h3>
+          <h3>{t("skills.tools")}</h3>
           <ul>
             {skillsByCategory.tools?.map((skill, index) => (
               <li key={index}>{skill.name}</li>

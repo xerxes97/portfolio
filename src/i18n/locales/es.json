@@ -1,0 +1,93 @@
+{
+  "nav": {
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Desarrollador Full Stack",
+    "subtitle": "Apasionado por crear aplicaciones web innovadoras"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Soy Cristian Quevedo, un desarrollador full stack apasionado por crear aplicaciones web innovadoras. Con experiencia en tecnologías front-end y back-end, me especializo en el desarrollo de soluciones escalables y eficientes. Mi enfoque se centra en escribir código limpio, colaborar en equipos multidisciplinarios y aprender continuamente nuevas tecnologías para enfrentar desafíos complejos."
+  },
+  "skills": {
+    "title": "Habilidades",
+    "frontend": "Front-End",
+    "backend": "Back-End",
+    "databases": "Bases de Datos",
+    "tools": "Herramientas"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "items": [
+      {
+        "name": "Proyecto 1",
+        "description": "Descripción del proyecto. Tecnologías usadas."
+      },
+      {
+        "name": "Proyecto 2",
+        "description": "Descripción del proyecto. Tecnologías usadas."
+      }
+    ],
+    "viewOnGitHub": "Ver en GitHub"
+  },
+  "experience": {
+    "title": "Experiencia",
+    "items": [
+      {
+        "position": "Desarrollador Full Stack",
+        "company": "Empresa Tech S.A.",
+        "startDate": "Enero 2023",
+        "endDate": "Presente",
+        "description": "Desarrollé aplicaciones web utilizando React y Node.js.",
+        "achievements": [
+          "Implementé APIs RESTful",
+          "Optimicé bases de datos",
+          "Colaboré en la migración a la nube",
+          "Logré una reducción del 30% en tiempos de carga"
+        ]
+      },
+      {
+        "position": "Desarrollador Front-End",
+        "company": "Startup Innovadora",
+        "startDate": "Junio 2021",
+        "endDate": "Diciembre 2022",
+        "description": "Trabajé en el desarrollo de interfaces de usuario con Vue.js y TypeScript.",
+        "achievements": [
+          "Participé en el diseño de UX/UI",
+          "Integración con servicios back-end",
+          "Contribuí al lanzamiento exitoso de 3 productos principales"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "items": [
+      {
+        "degree": "Ingeniería en Sistemas de Información",
+        "institution": "Universidad Nacional",
+        "graduationYear": "Graduado en 2021"
+      },
+      {
+        "degree": "Certificación en Desarrollo Web Full Stack",
+        "institution": "Plataforma Online",
+        "graduationYear": "2020"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "email": "Correo: tuemail@example.com",
+    "linkedin": "linkedin.com/in/cristianquevedo",
+    "github": "github.com/cristianquevedo"
+  },
+  "footer": {
+    "copyright": "© 2026 Cristian Quevedo. Todos los derechos reservados."
+  }
+}

@@ -1,7 +1,10 @@
+import { useTranslation } from "react-i18next";
+
 export const Footer = () => {
+  const { t } = useTranslation();
   return (
     <footer className="footer">
-      <p>&copy; 2026 Cristian Quevedo</p>
+      <p>{t("footer.copyright")}</p>
     </footer>
   );
 };

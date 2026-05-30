@@ -1,6 +1,8 @@
 import "./App.css";
 import {
+  Header,
   Hero,
+  About,
   Skills,
   Projects,
   Experience,
@@ -8,7 +10,6 @@ import {
   Contact,
   Footer,
 } from "./components";
-import { Header, About } from "./components/app";
 
 function App() {
   return (
