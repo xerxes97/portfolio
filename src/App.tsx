@@ -1,24 +1,23 @@
 import "./App.css";
 import {
-  Header,
+  Navbar,
   Hero,
   About,
   Skills,
-  Projects,
   Experience,
   Education,
   Contact,
   Footer,
-} from "./components";
+} from "./components/app";
 
 function App() {
   return (
     <div>
-      <Header />
-      <About />
+      <Navbar />
       <Hero />
+      <About />
       <Skills />
-      <Projects />
+      {/* <Projects /> */}
       <Experience />
       <Education />
       <Contact />

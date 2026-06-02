@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Inicio",
     "about": "Sobre Mí",
     "skills": "Habilidades",
     "projects": "Proyectos",
@@ -9,85 +10,105 @@
   },
   "hero": {
     "title": "Desarrollador Full Stack",
-    "subtitle": "Apasionado por crear aplicaciones web innovadoras"
+    "description": "Más de 4 años de experiencia construyendo sistemas de producción escalables con NestJS, Spring Boot y React. Especializado en arquitectura backend, toma de decisiones técnicas y aplicaciones de alto rendimiento.",
+    "contactMe": "Contáctame",
+    "downloadResume": "Descargar CV"
   },
   "about": {
-    "title": "Sobre Mí",
-    "description": "Soy Cristian Quevedo, un desarrollador full stack apasionado por crear aplicaciones web innovadoras. Con experiencia en tecnologías front-end y back-end, me especializo en el desarrollo de soluciones escalables y eficientes. Mi enfoque se centra en escribir código limpio, colaborar en equipos multidisciplinarios y aprender continuamente nuevas tecnologías para enfrentar desafíos complejos."
+    "tagline": "El Perfil",
+    "title": "Arquitecto Orientado al Backend",
+    "paragraph1": "Mi enfoque del desarrollo se basa en la disciplina arquitectónica y la precisión técnica.",
+    "paragraph2": "Con profunda experiencia en NestJS y Spring Boot, tiendo un puente entre los requisitos de negocio y los sistemas de producción robustos."
   },
   "skills": {
-    "title": "Habilidades",
-    "frontend": "Front-End",
-    "backend": "Back-End",
-    "databases": "Bases de Datos",
+    "title": "Arsenal Técnico",
+    "backend": "Backend",
+    "core": "Core",
+    "frontend": "Frontend",
+    "storage": "Almacenamiento",
+    "cloud": "Cloud e Infraestructura",
     "tools": "Herramientas"
   },
-  "projects": {
-    "title": "Proyectos",
-    "items": [
-      {
-        "name": "Proyecto 1",
-        "description": "Descripción del proyecto. Tecnologías usadas."
-      },
-      {
-        "name": "Proyecto 2",
-        "description": "Descripción del proyecto. Tecnologías usadas."
-      }
-    ],
-    "viewOnGitHub": "Ver en GitHub"
-  },
   "experience": {
-    "title": "Experiencia",
+    "title": "Trayectoria Profesional",
     "items": [
       {
-        "position": "Desarrollador Full Stack",
-        "company": "Empresa Tech S.A.",
-        "startDate": "Enero 2023",
-        "endDate": "Presente",
-        "description": "Desarrollé aplicaciones web utilizando React y Node.js.",
-        "achievements": [
-          "Implementé APIs RESTful",
-          "Optimicé bases de datos",
-          "Colaboré en la migración a la nube",
-          "Logré una reducción del 30% en tiempos de carga"
-        ]
+        "period": "Mayo 2025 - Presente",
+        "title": "Senior Developer @ Broers",
+        "description": "Liderando el rediseño arquitectónico de servicios empresariales centrales. Optimizando consultas de bases de datos e implementando patrones basados en eventos para procesamiento de alto rendimiento."
       },
       {
-        "position": "Desarrollador Front-End",
-        "company": "Startup Innovadora",
-        "startDate": "Junio 2021",
-        "endDate": "Diciembre 2022",
-        "description": "Trabajé en el desarrollo de interfaces de usuario con Vue.js y TypeScript.",
-        "achievements": [
-          "Participé en el diseño de UX/UI",
-          "Integración con servicios back-end",
-          "Contribuí al lanzamiento exitoso de 3 productos principales"
-        ]
+        "period": "2022 - 2025",
+        "title": "Full Stack Developer @ Dreamcode",
+        "description": "Entregué más de 10 módulos de producción usando NestJS y React. Mejoré el rendimiento del sistema en un 40% mediante caché estratégico y refactorización de código."
+      },
+      {
+        "period": "2021 - 2022",
+        "title": "Backend Engineer @ Stefanini",
+        "description": "Desarrollé microservicios en Java Spring Boot para clientes bancarios. Colaboré con equipos internacionales para entregar funcionalidades en entornos Ágiles."
+      },
+      {
+        "period": "2018 - 2019",
+        "title": "Software Developer @ Refinancia",
+        "description": "Enfoque inicial en la automatización de herramientas internas de recuperación de crédito y gestión de bases de datos."
       }
     ]
+  },
+  "projects": {
+    "title": "Proyecto Destacado",
+    "featured": {
+      "tag": "Project Seeker",
+      "title": "Plataforma de Descubrimiento de Empleo",
+      "description": "Una plataforma de alto rendimiento que conecta talento tecnológico con oportunidades.",
+      "viewCaseStudy": "Ver Caso de Estudio"
+    }
   },
   "education": {
     "title": "Educación",
     "items": [
       {
-        "degree": "Ingeniería en Sistemas de Información",
-        "institution": "Universidad Nacional",
-        "graduationYear": "Graduado en 2021"
+        "institution": "SENA",
+        "title": "Análisis y Desarrollo"
       },
       {
-        "degree": "Certificación en Desarrollo Web Full Stack",
-        "institution": "Plataforma Online",
-        "graduationYear": "2020"
+        "institution": "Henry",
+        "title": "Full Stack Bootcamp"
+      },
+      {
+        "institution": "Cedinsi",
+        "title": "Ingeniería de Software"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "items": [
+      "Platzi: Advanced NestJS",
+      "Platzi: Java Spring Boot",
+      "Platzi: Angular & TS"
+    ]
+  },
+  "languages": {
+    "title": "Idiomas",
+    "items": [
+      {
+        "name": "Español",
+        "level": "Nativo"
+      },
+      {
+        "name": "Inglés",
+        "level": "B2 (Profesional)"
       }
     ]
   },
   "contact": {
     "title": "Contacto",
-    "email": "Correo: tuemail@example.com",
-    "linkedin": "linkedin.com/in/cristianquevedo",
-    "github": "github.com/cristianquevedo"
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar Mensaje"
   },
   "footer": {
-    "copyright": "© 2026 Cristian Quevedo. Todos los derechos reservados."
+    "copyright": "© 2026 Cristian Quevedo"
   }
 }

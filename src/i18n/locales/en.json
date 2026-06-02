@@ -1,5 +1,6 @@
 {
   "nav": {
+    "home": "Home",
     "about": "About",
     "skills": "Skills",
     "projects": "Projects",
@@ -9,85 +10,105 @@
   },
   "hero": {
     "title": "Full Stack Developer",
-    "subtitle": "Passionate about creating innovative web applications"
+    "description": "Over 4 years of experience building scalable production systems using NestJS, Spring Boot, and React. Specialized in backend architecture, technical decision-making, and high-performance applications.",
+    "contactMe": "Contact Me",
+    "downloadResume": "Download Resume"
   },
   "about": {
-    "title": "About Me",
-    "description": "I'm Cristian Quevedo, a full stack developer passionate about creating innovative web applications. With experience in front-end and back-end technologies, I specialize in developing scalable and efficient solutions. My approach focuses on writing clean code, collaborating in multidisciplinary teams, and continuously learning new technologies to tackle complex challenges."
+    "tagline": "The Profile",
+    "title": "Backend-Oriented Architect",
+    "paragraph1": "My approach to development is rooted in architectural discipline and technical precision.",
+    "paragraph2": "With deep expertise in NestJS and Spring Boot, I bridge the gap between business requirements and robust production systems."
   },
   "skills": {
-    "title": "Skills",
-    "frontend": "Front-End",
-    "backend": "Back-End",
-    "databases": "Databases",
+    "title": "Technical Arsenal",
+    "backend": "Backend",
+    "core": "Core",
+    "frontend": "Frontend",
+    "storage": "Storage",
+    "cloud": "Cloud & Infrastructure",
     "tools": "Tools"
   },
-  "projects": {
-    "title": "Projects",
-    "items": [
-      {
-        "name": "Project 1",
-        "description": "Project description. Technologies used."
-      },
-      {
-        "name": "Project 2",
-        "description": "Project description. Technologies used."
-      }
-    ],
-    "viewOnGitHub": "View on GitHub"
-  },
   "experience": {
-    "title": "Experience",
+    "title": "Professional Journey",
     "items": [
       {
-        "position": "Full Stack Developer",
-        "company": "Tech Company S.A.",
-        "startDate": "January 2023",
-        "endDate": "Present",
-        "description": "Developed web applications using React and Node.js.",
-        "achievements": [
-          "Implemented RESTful APIs",
-          "Optimized databases",
-          "Collaborated on cloud migration",
-          "Achieved a 30% reduction in load times"
-        ]
+        "period": "May 2025 - Present",
+        "title": "Senior Developer @ Broers",
+        "description": "Leading the architectural redesign of core enterprise services. Optimizing database queries and implementing event-driven patterns for high-throughput processing."
       },
       {
-        "position": "Front-End Developer",
-        "company": "Innovative Startup",
-        "startDate": "June 2021",
-        "endDate": "December 2022",
-        "description": "Worked on developing user interfaces with Vue.js and TypeScript.",
-        "achievements": [
-          "Participated in UX/UI design",
-          "Integration with back-end services",
-          "Contributed to the successful launch of 3 major products"
-        ]
+        "period": "2022 - 2025",
+        "title": "Full Stack Developer @ Dreamcode",
+        "description": "Delivered over 10 production-scale modules using NestJS and React. Improved system performance by 40% through strategic caching and code refactoring."
+      },
+      {
+        "period": "2021 - 2022",
+        "title": "Backend Engineer @ Stefanini",
+        "description": "Developed Java Spring Boot microservices for banking clients. Collaborated with international teams to deliver features in Agile environments."
+      },
+      {
+        "period": "2018 - 2019",
+        "title": "Software Developer @ Refinancia",
+        "description": "Initial career focus on automating internal credit recovery tools and database management."
       }
     ]
+  },
+  "projects": {
+    "title": "Featured Project",
+    "featured": {
+      "tag": "Project Seeker",
+      "title": "Job Discovery Platform",
+      "description": "A high-performance platform connecting tech talent with opportunities.",
+      "viewCaseStudy": "View Case Study"
+    }
   },
   "education": {
     "title": "Education",
     "items": [
       {
-        "degree": "Information Systems Engineering",
-        "institution": "National University",
-        "graduationYear": "Graduated in 2021"
+        "institution": "SENA",
+        "title": "Analysis & Development"
       },
       {
-        "degree": "Full Stack Web Development Certification",
-        "institution": "Online Platform",
-        "graduationYear": "2020"
+        "institution": "Henry",
+        "title": "Full Stack Bootcamp"
+      },
+      {
+        "institution": "Cedinsi",
+        "title": "Software Engineering"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      "Platzi: Advanced NestJS",
+      "Platzi: Java Spring Boot",
+      "Platzi: Angular & TS"
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      {
+        "name": "Spanish",
+        "level": "Native"
+      },
+      {
+        "name": "English",
+        "level": "B2 (Professional)"
       }
     ]
   },
   "contact": {
-    "title": "Contact",
-    "email": "Email: tuemail@example.com",
-    "linkedin": "linkedin.com/in/cristianquevedo",
-    "github": "github.com/cristianquevedo"
+    "title": "Get In Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
   },
   "footer": {
-    "copyright": "© 2026 Cristian Quevedo. All rights reserved."
+    "copyright": "© 2026 Cristian Quevedo"
   }
 }
