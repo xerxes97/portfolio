@@ -122,6 +122,12 @@ html {
   animation-timeline: --section;
 }
 
+/* ================ CUBE =========================== */
+.cube {
+  /* clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%); */
+  box-shadow: inset 0px 0px 10px 8px var(--color-rojo);
+}
+
 /* Animación zoom */
 @keyframes zoom-scroll {
   0% {

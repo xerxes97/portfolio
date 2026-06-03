@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { SectionTitle } from "../../common/SectionTitle";
-import { SkillCard } from "../../common/SkillCard";
-import { skills } from "../../../constants";
+import { SectionTitle } from "@components/common/SectionTitle";
+import { SkillCard } from "@components/common/SkillCard";
+import { skills } from "@constants";
 
 export const Skills = () => {
   const { t } = useTranslation();

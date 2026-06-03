@@ -1,4 +1,4 @@
-import type { IChildren } from "../../../interfaces";
+import type { IChildren } from "@interfaces";
 
 export const Pannel = ({ children }: IChildren) => {
     return <section className="section">

@@ -1,14 +1,16 @@
 import { useTranslation } from "react-i18next";
-import { Button } from "../../common/Button";
+import { Button } from "@components/common/Button";
+import Crossword from "@components/common/Crossword";
+import { wordCombination1 } from "@constants/crossword";
 
 export const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="home" className="py-24">
+    <section id="home" className="py-24 flex items-center">
       <div className="mx-auto max-w-7xl px-6 text-center">
         <h1 className="mb-4 text-6xl font-display">
-          Cristian Quevedo
+          <span className="text-verde1">Cristian</span> <span className="text-verde2">Quevedo</span>
         </h1>
         <h2 className="mb-6 text-3xl font-bold text-blue-600 dark:text-blue-400">
           {t("hero.title")}
@@ -21,6 +23,7 @@ export const Hero = () => {
           <Button variant="outline">{t("hero.downloadResume")}</Button>
         </div>
       </div>
+        <Crossword interval={1000} sizeSquare={wordCombination1.sizeSquare} maps={wordCombination1.maps} />
     </section>
   );
 };

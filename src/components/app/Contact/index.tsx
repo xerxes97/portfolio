@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { SectionTitle } from "../../common/SectionTitle";
-import { Button } from "../../common/Button";
+import { SectionTitle } from "@components/common/SectionTitle";
+import { Button } from "@components/common/Button";
 
 export const Contact = () => {
   const { t } = useTranslation();

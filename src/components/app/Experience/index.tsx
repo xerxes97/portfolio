@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { SectionTitle } from "../../common/SectionTitle";
-import { TimelineItem } from "../../common/TimelineItem";
-import { experiences } from "../../../constants";
+import { SectionTitle } from "@components/common/SectionTitle";
+import { TimelineItem } from "@components/common/TimelineItem";
+import { experiences } from "@constants";
 
 export const Experience = () => {
   const { t } = useTranslation();

@@ -22,7 +22,18 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+    "baseUrl": ".",
+    "paths": {
+      "@interfaces": ["./src/interfaces"],
+      "@interfaces/*": ["./src/interfaces/*"],
+      "@components": ["./src/components"],
+      "@components/*": ["./src/components/*"],
+      "@types": ["./src/types"],
+      "@types/*": ["./src/types/*"],
+      "@constants": ["./src/constants"],
+      "@constants/*": ["./src/constants/*"]
+    }
   },
   "include": ["src"]
 }

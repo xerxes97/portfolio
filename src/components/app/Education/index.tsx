@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { LanguageBar } from "../../common/LanguageBar";
-import { education, certifications, languages } from "../../../constants";
+import { LanguageBar } from "@components/common/LanguageBar";
+import { education, certifications, languages } from "@constants";
 
 export const Education = () => {
   const { t } = useTranslation();

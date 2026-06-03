@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import { Button } from "../../common/Button";
-import { Badge } from "../../common/Badge";
-import { SectionTitle } from "../../common/SectionTitle";
+import { Button } from "@components/common/Button";
+import { Badge } from "@components/common/Badge";
+import { SectionTitle } from "@components/common/SectionTitle";
 
 export const Project = () => {
   const { t } = useTranslation();

@@ -1,3 +1,2 @@
-export interface IChildren {
-    children: React.ReactNode;
-}
+export * from "./general";
+export * from "./map";

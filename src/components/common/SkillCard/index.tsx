@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Badge } from "../Badge";
+import { Badge } from "@components/common/Badge";
 
 export const SkillCard = ({
   title,
