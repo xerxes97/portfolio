@@ -5,7 +5,7 @@ export const Crossword = (props: ICrosswordMap) => {
   const { maps, sizeSquare, interval } = props;
   return (
     <div className="flex justify-center py-8 font-display text-2xl">
-      <CrosswordMap words={maps[0].words} sizeSquare={sizeSquare} />
+      <CrosswordMap words={maps[0].words} sizeSquare={sizeSquare} interval={interval} />
     </div>
   );
 };

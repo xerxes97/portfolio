@@ -1,13 +1,18 @@
-export const Cube = ({ size, letter }: { size: number; letter?: string }) => {
+export const Cube = ({ size, letter, delay = 0 }: { size: number; letter?: string; delay?: number }) => {
   if (letter === "" || !letter) return (
     <div
       style={{ width: size, height: size }}
     >
-      {letter ?? ""}
     </div>
   );
   return (
-    <div className="relative cursor-pointer">
+    <div
+      className="relative cursor-pointer"
+      style={{
+        animation: "cube-reveal 0.3s ease-out both",
+        animationDelay: `${delay}ms`,
+      }}
+    >
       <div
         className="absolute inset-0 rounded-xl shadow-xl/30"
         style={{ width: size, height: size }}

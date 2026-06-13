@@ -2,16 +2,27 @@ import type { IMap } from "@interfaces";
 import type { ReactElement } from "react";
 import { Cube } from "../Cube";
 
-export const CrosswordMap = ({ words, sizeSquare }: IMap) => {
-  const grid = new Map<string, string>();
+interface CrosswordMapProps extends IMap {
+  interval: number;
+}
 
-  for (const { word, position, direction } of words) {
+export const CrosswordMap = ({ words, sizeSquare, interval }: CrosswordMapProps) => {
+  const grid = new Map<string, { letter: string; delay: number }>();
+
+  words.forEach(({ word, position, direction }, wordIndex) => {
+    const delayPerLetter = interval / word.length;
+    const wordOffset = wordIndex * interval;
     for (let i = 0; i < word.length; i++) {
       const x = direction === "horizontal" ? position.x + i : position.x;
       const y = direction === "vertical" ? position.y + i : position.y;
-      grid.set(`${x},${y}`, word[i]);
+      const key = `${x},${y}`;
+      const delay = wordOffset + delayPerLetter * i;
+      const existing = grid.get(key);
+      if (!existing || delay < existing.delay) {
+        grid.set(key, { letter: word[i], delay });
+      }
     }
-  }
+  });
 
   const maxX = words.reduce((max, w) => {
     const last = w.direction === "horizontal" ? w.position.x + w.word.length - 1 : w.position.x;
@@ -28,8 +39,8 @@ export const CrosswordMap = ({ words, sizeSquare }: IMap) => {
   for (let y = 0; y <= maxY; y++) {
     const cells: ReactElement[] = [];
     for (let x = 0; x <= maxX; x++) {
-      const letter = grid.get(`${x},${y}`);
-      cells.push(<Cube key={`${x},${y}`} size={sizeSquare} letter={letter} />);
+      const cell = grid.get(`${x},${y}`);
+      cells.push(<Cube key={`${x},${y}`} size={sizeSquare} letter={cell?.letter} delay={cell?.delay ?? 0} />);
     }
     rows.push(
       <div key={y} className="flex">

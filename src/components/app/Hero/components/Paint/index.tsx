@@ -35,7 +35,7 @@ export const Paint = ({ children }: { children: React.ReactNode }) => {
         const posX = random(0, size.width - pointerSize);
         const posY = random(0, size.height - pointerSize);
         return (
-        <Pointer key={i} size={pointerSize} posX={posX} posY={posY} />
+        <Pointer key={i} index={i} size={pointerSize} posX={posX} posY={posY} />
     )}), [size]);
 
     return (
@@ -47,10 +47,18 @@ export const Paint = ({ children }: { children: React.ReactNode }) => {
     );
 };
 
-const Pointer = ({ size, posX, posY }: { size: number, posX: number, posY: number }) => {
+const Pointer = ({ size, posX, posY, index }: { size: number, posX: number, posY: number, index: number }) => {
     const color = randomColor();
     return (
-        <div className="absolute rounded-full mix-blend-screen opacity-60 blur-md" style={{ width: size, height: size, left: posX, top: posY, backgroundColor: color }}>
+        <div className="absolute rounded-full mix-blend-screen blur-md" style={{
+            width: size,
+            height: size,
+            left: posX,
+            top: posY,
+            backgroundColor: color,
+            animation: "grow 0.6s ease-out both",
+            animationDelay: `${index * 0.2}s`,
+        }}>
             <p>Pointer</p>
         </div>
     );

@@ -25,7 +25,7 @@ export const Hero = () => {
         </div>
       </div>
       <Paint>
-        <Crossword interval={1000} sizeSquare={wordCombination1.sizeSquare} maps={wordCombination1.maps} />
+        <Crossword interval={300} sizeSquare={wordCombination1.sizeSquare} maps={wordCombination1.maps} />
       </Paint>
     </section>
   );
