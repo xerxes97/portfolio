@@ -10,7 +10,7 @@ export const Skills = () => {
     <section id="skills" className="py-24">
       <div className="mx-auto max-w-7xl px-6">
         <SectionTitle>{t("skills.title")}</SectionTitle>
-        <div className="grid gap-4 md:grid-cols-4">
+        <div className="grid gap-4 md:grid-cols-3 relative">
           {skills.map((skill) => (
             <SkillCard key={skill.title} {...skill} />
           ))}

@@ -15,18 +15,16 @@
     "downloadResume": "Descargar CV"
   },
   "about": {
-    "tagline": "El Perfil",
-    "title": "Arquitecto Orientado al Backend",
+    "title": "Sobre mí",
     "paragraph1": "Mi enfoque del desarrollo se basa en la disciplina arquitectónica y la precisión técnica.",
     "paragraph2": "Con profunda experiencia en NestJS y Spring Boot, tiendo un puente entre los requisitos de negocio y los sistemas de producción robustos."
   },
   "skills": {
-    "title": "Arsenal Técnico",
+    "title": "Habilidades",
     "backend": "Backend",
-    "core": "Core",
+    "programmingLanguages": "Lenguajes de Programación",
     "frontend": "Frontend",
     "storage": "Almacenamiento",
-    "cloud": "Cloud e Infraestructura",
     "tools": "Herramientas"
   },
   "experience": {

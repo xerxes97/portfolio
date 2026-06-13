@@ -15,18 +15,16 @@
     "downloadResume": "Download Resume"
   },
   "about": {
-    "tagline": "The Profile",
-    "title": "Backend-Oriented Architect",
+    "title": "About Me",
     "paragraph1": "My approach to development is rooted in architectural discipline and technical precision.",
     "paragraph2": "With deep expertise in NestJS and Spring Boot, I bridge the gap between business requirements and robust production systems."
   },
   "skills": {
     "title": "Technical Arsenal",
     "backend": "Backend",
-    "core": "Core",
+    "programmingLanguages": "Programming Languages",
     "frontend": "Frontend",
     "storage": "Storage",
-    "cloud": "Cloud & Infrastructure",
     "tools": "Tools"
   },
   "experience": {

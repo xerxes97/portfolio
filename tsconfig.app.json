@@ -32,7 +32,9 @@
       "@types": ["./src/types"],
       "@types/*": ["./src/types/*"],
       "@constants": ["./src/constants"],
-      "@constants/*": ["./src/constants/*"]
+      "@constants/*": ["./src/constants/*"],
+      "@utils": ["./src/utils"],
+      "@utils/*": ["./src/utils/*"]
     }
   },
   "include": ["src"]

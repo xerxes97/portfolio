@@ -2,13 +2,14 @@ import { useTranslation } from "react-i18next";
 import { Button } from "@components/common/Button";
 import Crossword from "@components/common/Crossword";
 import { wordCombination1 } from "@constants/crossword";
+import { Paint } from "./components";
 
 export const Hero = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="home" className="py-24 flex items-center">
-      <div className="mx-auto max-w-7xl px-6 text-center">
+    <section id="home" className="py-24 grid grid-cols-2">
+      <div className="flex flex-col items-center justify-center">
         <h1 className="mb-4 text-6xl font-display">
           <span className="text-verde1">Cristian</span> <span className="text-verde2">Quevedo</span>
         </h1>
@@ -23,7 +24,9 @@ export const Hero = () => {
           <Button variant="outline">{t("hero.downloadResume")}</Button>
         </div>
       </div>
+      <Paint>
         <Crossword interval={1000} sizeSquare={wordCombination1.sizeSquare} maps={wordCombination1.maps} />
+      </Paint>
     </section>
   );
 };

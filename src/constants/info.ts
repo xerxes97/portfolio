@@ -2,32 +2,27 @@ export const skills = [
   {
     title: "backend",
     icon: "terminal",
-    items: ["NestJS", "Spring Boot", "Node.js", "Express", "Python"],
+    items: ["NestJS", "Spring Boot", "Node.js", "Express", "Python", "AWS", "Terraform"],
   },
   {
-    title: "core",
-    icon: "architecture",
-    items: ["Microservices", "REST/GraphQL"],
+    title: "programmingLanguages",
+    icon: "code",
+    items: ["JavaScript", "TypeScript", "Java", "Python"],
   },
   {
     title: "frontend",
     icon: "web",
-    items: ["React", "TypeScript", "Tailwind"],
+    items: ["React", "Next.js", "Remix", "Angular", "Tailwind CSS",  "HTML/CSS", "Material UI", "JavaScript", "TypeScript"],
   },
   {
     title: "storage",
     icon: "database",
-    items: ["PostgreSQL", "MongoDB", "Redis"],
-  },
-  {
-    title: "cloud",
-    icon: "cloud",
-    items: ["AWS", "Docker", "Kubernetes", "CI/CD", "Terraform"],
+    items: ["PostgreSQL", "MongoDB", "Redis", "Firebase"],
   },
   {
     title: "tools",
     icon: "settings",
-    items: ["Kafka", "Git", "Jest"],
+    items: ["Git", "Jest", "JUnit", "Agile/Scrum", "Docker"],
   },
 ];
 
