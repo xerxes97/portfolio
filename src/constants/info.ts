@@ -70,6 +70,39 @@ export const certifications = [
   "certifications.items.2",
 ];
 
+export const projects = [
+  {
+    id: "project-seeker",
+    name: "projects.items.0.name",
+    description: "projects.items.0.description",
+    technologies: ["NestJS", "React", "PostgreSQL", "TypeScript"],
+    githubUrl: "https://github.com/cristian-quevedo",
+  },
+  {
+    id: "ecommerce-platform",
+    name: "projects.items.1.name",
+    description: "projects.items.1.description",
+    technologies: ["Next.js", "TypeScript", "PostgreSQL", "Redis"],
+    githubUrl: "https://github.com/cristian-quevedo",
+    liveUrl: "https://example.com",
+  },
+  {
+    id: "payment-api",
+    name: "projects.items.2.name",
+    description: "projects.items.2.description",
+    technologies: ["Spring Boot", "Java", "PostgreSQL", "Docker"],
+    githubUrl: "https://github.com/cristian-quevedo",
+  },
+  {
+    id: "real-time-dashboard",
+    name: "projects.items.3.name",
+    description: "projects.items.3.description",
+    technologies: ["NestJS", "React", "WebSocket", "MongoDB"],
+    githubUrl: "https://github.com/cristian-quevedo",
+    liveUrl: "https://example.com",
+  },
+];
+
 export const languages = [
   { name: "languages.items.0.name", level: "languages.items.0.level", progress: 100 },
   { name: "languages.items.1.name", level: "languages.items.1.level", progress: 75 },

@@ -53,13 +53,25 @@
     ]
   },
   "projects": {
-    "title": "Proyecto Destacado",
-    "featured": {
-      "tag": "Project Seeker",
-      "title": "Plataforma de Descubrimiento de Empleo",
-      "description": "Una plataforma de alto rendimiento que conecta talento tecnológico con oportunidades.",
-      "viewCaseStudy": "Ver Caso de Estudio"
-    }
+    "title": "Proyectos Destacados",
+    "items": [
+      {
+        "name": "Project Seeker",
+        "description": "Una plataforma de alto rendimiento que conecta talento tecnológico con oportunidades. Incluye coincidencia de empleos en tiempo real, recomendaciones con IA y un sistema intuitivo de seguimiento de candidatos."
+      },
+      {
+        "name": "Plataforma E-Commerce",
+        "description": "Una plataforma de comercio electrónico completa con gestión de inventario en tiempo real, procesamiento de pagos seguro y un flujo de pago optimizado que maneja miles de usuarios concurrentes."
+      },
+      {
+        "name": "API de Pasarela de Pagos",
+        "description": "Un microservicio robusto para procesamiento de pagos con soporte para múltiples proveedores, garantías de idempotencia, manejo de webhooks y registro de auditoría completo."
+      },
+      {
+        "name": "Dashboard en Tiempo Real",
+        "description": "Un panel de análisis interactivo con transmisión de datos en vivo, widgets personalizables y funciones de colaboración en tiempo real para monitorear métricas de negocio."
+      }
+    ]
   },
   "education": {
     "title": "Educación",

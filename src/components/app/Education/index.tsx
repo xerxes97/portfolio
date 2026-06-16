@@ -6,7 +6,7 @@ export const Education = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-slate-50 dark:bg-slate-800/30 py-24">
+    <section className="panel flex items-center bg-slate-50 dark:bg-slate-800/30 py-24">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-3">
         <div>
           <h3 className="mb-6 text-xl font-bold">{t("education.title")}</h3>

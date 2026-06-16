@@ -7,7 +7,7 @@ export const Experience = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="experience" className="bg-slate-50 dark:bg-slate-800/30 py-24">
+    <section id="experience" className="panel flex items-center dark:bg-black">
       <div className="mx-auto max-w-5xl px-6">
         <SectionTitle>{t("experience.title")}</SectionTitle>
         <div className="space-y-8">

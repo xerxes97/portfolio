@@ -6,7 +6,7 @@ export const Contact = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="py-24">
+    <section id="contact" className="panel flex items-center py-24">
       <div className="mx-auto max-w-3xl px-6">
         <SectionTitle centered>{t("contact.title")}</SectionTitle>
         <form className="space-y-6 rounded-2xl border border-slate-200 dark:border-slate-700 p-8">

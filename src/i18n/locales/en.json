@@ -53,13 +53,25 @@
     ]
   },
   "projects": {
-    "title": "Featured Project",
-    "featured": {
-      "tag": "Project Seeker",
-      "title": "Job Discovery Platform",
-      "description": "A high-performance platform connecting tech talent with opportunities.",
-      "viewCaseStudy": "View Case Study"
-    }
+    "title": "Featured Projects",
+    "items": [
+      {
+        "name": "Project Seeker",
+        "description": "A high-performance platform connecting tech talent with opportunities. Features real-time job matching, AI-driven recommendations, and an intuitive candidate tracking system."
+      },
+      {
+        "name": "E-Commerce Platform",
+        "description": "A full-featured e-commerce platform with real-time inventory management, secure payment processing, and an optimized checkout flow handling thousands of concurrent users."
+      },
+      {
+        "name": "Payment Gateway API",
+        "description": "A robust microservice for payment processing with support for multiple providers, idempotency guarantees, webhook handling, and comprehensive audit logging."
+      },
+      {
+        "name": "Real-Time Dashboard",
+        "description": "An interactive analytics dashboard with live data streaming, customizable widgets, and real-time collaboration features for monitoring business metrics."
+      }
+    ]
   },
   "education": {
     "title": "Education",

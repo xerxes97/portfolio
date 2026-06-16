@@ -4,7 +4,7 @@ export const About = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-slate-50 dark:bg-slate-800/30 py-24">
+    <section className="panel bg-slate-50 dark:bg-slate-800/30 py-24">
       <div className="mx-auto grid max-w-7xl gap-12 px-6 md:grid-cols-2">
         <div>
           <h2 className="text-4xl font-bold">{t("about.title")}</h2>

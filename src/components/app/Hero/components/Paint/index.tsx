@@ -50,7 +50,7 @@ export const Paint = ({ children }: { children: React.ReactNode }) => {
 const Pointer = ({ size, posX, posY, index }: { size: number, posX: number, posY: number, index: number }) => {
     const color = randomColor();
     return (
-        <div className="absolute rounded-full mix-blend-screen blur-md" style={{
+        <div className="absolute rounded-full mix-blend-screen blur-2xl" style={{
             width: size,
             height: size,
             left: posX,
